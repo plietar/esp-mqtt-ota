@@ -1,0 +1,4 @@
+menu "MQTT OTA"
+  config MQTT_OTA_TOPIC_PREFIX
+    string "MQTT topic prefix for over-the-air updates"
+endmenu
